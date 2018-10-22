@@ -1,0 +1,239 @@
+body{
+    /*background: #f6a61b;    */
+    /* background: #f9f404; */
+    background: #e8e8e8;
+}
+h1{
+    text-align: center;
+}
+.ajustar{
+    padding-right:10px;
+    width:50px;
+}
+label.clasicas, input.clasicas{
+    font-weight: bold;
+    font-size:1.40em;
+}
+.llenado_form input.box,.llenado_form input.box2,.llenado_form2 input.box,.llenado_form2 input.box2,td.box {
+	border: 2px solid #faf9b4;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+td.box{
+    text-align: left;
+}
+td.boxito{
+    color: #ff0000;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+}
+td.boxito2{
+    color: #1c9bd6;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+}
+td.boxito3{
+    color: #000;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+}
+.llenado_form input.box2,.llenado_form2 input.box2{
+    border: 2px solid #1c9bd6;  
+}
+.container{
+    text-align: center;
+}
+.llenado_form h2{
+    margin:0;
+    display: inline;
+}
+.llenado_form button {margin-left:156px;}
+.llenado_form label,.llenado_form2 label{
+   font-family:Georgia, Times, "Times New Roman", serif;
+}
+.llenado_form label,.llenado_form2 label{
+    width:200px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.llenado_form input,.llenado_form1 input {
+    height:20px; 
+    width:220px; 
+    padding:5px 8px;
+}
+.llenado_form2 input{
+    height:20px; 
+    text-align: right;
+    padding-left:10px;
+    padding-right: 10px;
+    width:50px; 
+}
+.llenado_form input,.llenado_form2 input { 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+.llenado_form input { /* add this to the already existing style */
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+.llenado_form input:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #b03535;; 
+}
+.llenado_form input:focus{ /* add this to the already existing style */
+    padding-right:70px;
+}
+.llenado_form input,{
+    padding-right:30px;
+}
+input:required {
+    background: #fff url(../images/red_asterisk.png) no-repeat 98% center;
+}
+.llenado_form input:focus:invalid { /* when a field is considered invalid by the browser */
+    background: #fff url(../images/invalid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+.llenado_form input:required:valid { /* when a field is considered valid by the browser */
+    background: #fff url(../images/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #ff0000;
+}
+.llenado_form ul,.llenado_form2 ul {
+    /*width:700px;*/
+    width:700px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+.clasicas ul, .clasicas li,{
+    width:800px;
+}
+.llenado_form li,.llenado_form2 li{
+    padding:12px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+.llenado_form li:first-child, .llenado_form li:last-child {
+    border-bottom:1px solid #777;
+}
+
+div.cuerpo,div.cuerpo2{
+    background-image: url("../images/Sol.png"); 
+    /* display: inline-block; */
+    display: contents;
+    height: 90VH;
+    text-align: center;
+    width: 75%;
+}
+div.cuerpo2{
+    /* background-image: url("../images/k33.jpg");  */
+    background-image: url("../images/Sol.png"); 
+    height: :50vh;
+    background-repeat: no-repeat;
+    /*height: 800vh;*/
+}
+table.tablita,.tablita2,.tablita3{
+
+	padding-top: 50px;
+	background: #eeeeee;
+	border: 5px solid #bbbbbb;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+    box-shadow: 0px 0px 15px 20px rgba(15, 15, 15, 0.7);
+    -moz-box-shadow: 0px 0px 15px 20px rgba(15, 15, 15, 0.7);
+    -webkit-box-shadow: 0px 0px 15px 20px rgba(15, 15, 15, 0.7);
+    
+    height: 35vh;
+    margin: 0 auto;
+    text-align: left;
+    width: 27%;
+}
+table.tablita2 {
+    height: 70%;
+    width: 80%;
+}
+table.tablita3 {
+    height: 80%;
+    width: 1200px;
+}
+table.tablita4 {
+    /*padding-right: 50px;*/
+    height: 80%;
+    width: 600px;
+}
+.requiere_notificacion {font-size: 11px;}
+.requiere_notificacion {
+    color:#d45252; 
+    margin:5px 0 0 0; 
+    display:inline;
+    float:right;
+}
+/* Button Style */
+button.submit {
+    background-color: #ff0000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff0000));
+    background: -webkit-linear-gradient(top, #ff0000, #db0909);
+    background: -moz-linear-gradient(top, #ff0000, #ff0000);
+    background: -ms-linear-gradient(top, #ff0000, #ff0000);
+    background: -o-linear-gradient(top, #ff0000, #ff0000);
+    background: linear-gradient(top, #ff0000, #ff0000);
+    border: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #ff0000;
+    -webkit-box-shadow: 0 1px 0 0 #ff0000 inset ;
+    -moz-box-shadow: 0 1px 0 0 #ff0000 inset;
+    -ms-box-shadow: 0 1px 0 0 #ff0000 inset;
+    -o-box-shadow: 0 1px 0 0 #ff0000 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #673615;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+/*fin del button style*/
+::-webkit-validation-bubble-message {
+    padding: 1em;
+}
+
+/*estilos del menu*/
+
+#mini-menu {font:Georgia;width:850px;}
+ul#mini-menu {text-align:center;margin:1em 0 1em 0;font:bold 14px Georgia;border-bottom:3px solid #000;list-style-type:none;padding:3px 10px 3px 10px;}
+ul#mini-menu li {display:inline;}
+ul#mini-menu li a {padding:3px 4px;border:4px solid #000;background-color:#ff0000;color:#ffffff;margin-right:0px;text-decoration:none;border-bottom:none;border-radius:10px 10px 0 0;}
+ul#mini-menu a:hover {background:#80cc80;}
